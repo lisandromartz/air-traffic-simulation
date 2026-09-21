@@ -13,4 +13,10 @@ report/*.quarto_ipynb
 report/_manuscript/
 report/*_files/
 
+# Data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
 .vscode/
