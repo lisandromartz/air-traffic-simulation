@@ -1,0 +1,8 @@
+---
+title: Simulación de Tráfico Aéreo 2026
+authors:
+  - name: Lisandro Martinez
+    id: 2675/6
+    affiliation: Universidad Nacional de La Plata
+bibliography: references.bib
+---

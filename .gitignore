@@ -6,4 +6,11 @@ __pycache__/
 .venv/
 *.py[cod]
 
+# Quarto
+report/.quarto/
+report/_freeze/
+report/*.quarto_ipynb
+report/_manuscript/
+report/*_files/
+
 .vscode/

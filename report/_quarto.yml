@@ -1,0 +1,38 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+lang: "es"
+number-sections: true
+notebook-links: false
+# date: ""
+# date-format: iso
+toc: true
+colorlinks: false
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  pdf:
+    documentclass: scrartcl
+    pdf-engine: xelatex
+    papersize: a4
+    fig-pos: "H"
+    mainfont: "Times New Roman"
+    monofont: "Courier New"
+    fontsize: "12"
+    geometry: 
+      - top=25mm
+      - bottom=20mm
+      - left=30mm
+      - right=20mm
+    # output-file: report.pdf
+
+execute:
+  freeze: true
+
+
+
