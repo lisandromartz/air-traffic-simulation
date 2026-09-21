@@ -1,0 +1,47 @@
+[project]
+name = "air-traffic-simulation"
+version = "0.1.0"
+description = "Discrete-event simulation of Argentina's commercial air transport network"
+readme = "README.md"
+authors = [
+    { name = "Lisandro Martinez", email = "lisandromartz@gmail.com" }
+]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "scipy>=1.18.1",
+    "simpy>=4.1.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "pytest>=9.1.1",
+    "ruff>=0.16.8",
+]
+
+[tool.uv.build-backend]
+module-name = "argentina_air_traffic"
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+    "B",
+    "UP",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
